@@ -200,7 +200,7 @@ project-card-info-details{
     .skills-capsule {
         width: 45vw;
     } */
-/* @media screen and (max-width:1024px){
+@media screen and (max-width:1024px){
 .sidebar{
     width:17vw;
 }
@@ -210,7 +210,7 @@ project-card-info-details{
 .aboutMe p{
     font-size: 1.2rem;
 }
-} */
+}
 
 
 

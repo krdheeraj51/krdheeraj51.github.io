@@ -1,0 +1,255 @@
+.container {
+    display: flex;
+    height: 97vh;
+    width: 97.5vw;
+    background: lightgreen;
+}
+
+.sidebar {
+    height: 97vh;
+    width: 15vw;
+    background: lightblue;
+}
+
+.profile {
+    height: 35vh;
+    background: pink;
+}
+
+.profile img {
+    margin-top: 9%;
+    margin-left: 20%;
+    width: 55%;
+    border-radius: 50%;
+}
+
+.profile h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    margin-top: 0px;
+
+}
+
+#social-icons {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#social-icons a {
+    text-decoration: none;
+}
+
+#facebook-icon {
+    color: #3B5998;
+}
+
+#twitter-icon {
+    color: #1DA1F2;
+}
+
+#linkdin-icon {
+    color: #0077B5;
+}
+
+#google-icon {
+    color: #DB4437;
+}
+
+.details {
+    height: 98vh;
+    width: 84.5vw;
+    /* background: blueviolet; */
+}
+
+.profile-skills {
+    height: 31vh;
+    background: lightgoldenrodyellow;
+}
+
+/* .profile-skills .title{
+        background: lightcoral;
+        color:white;
+        text-align: center;
+        height:5vh;
+    } */
+
+#title {
+    background: lightcoral;
+    color: white;
+    text-align: center;
+    height: 5vh;
+    margin: 0px;
+    text-transform: uppercase;
+
+}
+
+.skills-capsule {
+    height: 4vh;
+    width: 14vw;
+    margin: 0 auto;
+    /* background: lightblue; */
+    border-radius: 80px;
+    border: 2px solid lightblue;
+    line-height: 2px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.skills-capsule p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#java-capsule {
+    background: #5382A1;
+}
+
+#js-capsule {
+    background: #F0DB4F;
+}
+
+#node-capsule {
+    background: #8BC500;
+}
+
+#express-capsule {
+    background: #FF9327;
+}
+
+#js-capsule {
+    background: #F0DB4F;
+}
+
+#angular-capsule {
+    background: #DD0031;
+}
+
+.profile-skills-card {
+
+    height: 5vh;
+    width: 5vw;
+    text-align: center;
+    background: lightcoral;
+}
+
+.experiece-card {
+    background: #6799ba;
+    height: 10vh;
+    /* margin-top: 0.5%; */
+}
+.experiece-card p{
+    font-size: 0.75rem;
+
+}
+
+.experiece-card-root {
+    text-align: center;
+    color: white;
+    height: 26vh;
+    overflow-y: auto;
+}
+
+
+.aboutMe {
+    height: 30vh;
+    background: green;
+    color: white;
+    background-image: url('bannerweb.jpg');
+    text-align: center;
+}
+
+.aboutMe h1 {
+    margin: 0px;
+}
+
+.projects {
+    height: 63vh;
+    /* background: green; */
+    overflow-y: auto;
+
+}
+project-card-info-details{
+    height: 68vh;
+}
+
+.projects-card {
+    width: 75vw;
+    height: 10vh;
+    margin-left: 3%;
+    background:red;
+    text-align:center;
+    color:white;
+    /* margin-top: 0%; */
+}
+/* .projects-card h3{
+    text-align:center;
+    color:white;
+} */
+
+/* #project_card_detail {
+    
+} */
+
+/* @media screen and (max-width: 400px) {
+    .sidebar {
+        width: 55vw;
+
+    }
+    .skills-capsule {
+        width: 45vw;
+    } */
+/* @media screen and (max-width:1024px){
+.sidebar{
+    width:17vw;
+}
+.experiece-card{
+    height: 12vh;
+}
+.aboutMe p{
+    font-size: 1.2rem;
+}
+} */
+
+
+
+@media screen and (max-width: 583px) {
+    .sidebar {
+        width: 35vw;
+        height: 97vh;
+    }
+    #social-icons{
+        font-size: 2.7rem;
+    }
+    .skills-capsule {
+        width: 34vw;
+    }
+    .experiece-card-root{
+        height: 26vh;
+    }
+    .experiece-card{
+        width:34vw;
+        height: 12vh;
+        font-size: 1.3rem;
+    }
+    .experiece-card p{
+        font-size: 1.2rem;
+        height: 12vh;
+    }
+  .details{
+      width:62.5vw;
+
+  }
+  .aboutMe p{
+        font-size: 1.2rem;
+  }
+  .projects-card{
+      width: 60vw;
+      height: 13vh;
+      font-size: 1.2rem;
+  }
+}
+
+
+
